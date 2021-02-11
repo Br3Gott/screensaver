@@ -1,0 +1,60 @@
+body {
+    background-color: #222222;
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.time {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 15vmin;
+}
+
+.time p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15vmin;
+    color: white;
+    text-shadow: 1vmin 1vmin black;
+}
+
+.quote {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 5vmin;
+}
+
+.quote span {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vmin;
+    color: white;
+    text-shadow: 0.5vmin 0.5vmin black;
+}
+
+#author {
+    color: #999999;
+    text-shadow: 0.5vmin 0.5vmin #111111;
+}
